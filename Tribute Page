@@ -1,0 +1,127 @@
+<style>
+h1 {
+  font-family: "Verdana", sans-serif;
+  font-size: 50px;;
+  text-align:center;
+}
+
+#subtitle {;
+  text-align:center;
+  font-family: "Verdana Pro", sans-serif;
+  font-size: 20px;
+}
+
+#img-div {
+    width: 98%;
+    height: auto;
+    border-radius: .5%;
+    background-color: white; 
+    justify-content:center;
+    margin: auto;
+    text-align:center;
+  }
+
+.responsive-img {
+  display: block;
+  padding-top: 30px;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 55%;
+  height: auto;
+}
+
+#img-caption {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-family: "Verdana Pro", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+  font-family: "Verdana", sans-serif;
+  font-size: 30px;
+}
+
+ul {
+  font-family: "Verdana Pro", sans-serif;
+  font-size: 16px;
+  line-height: 3;
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quote {
+  text-align: center;
+  padding: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  text-align: center;
+}
+
+.container {
+  background-color: #eeeeee;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+</style>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html id="main">
+  <title id="title">Truett Cathy</title>
+    <div class="container">
+  <h1>Truett Cathy</h1>  
+  <p id="subtitle">The creator of the Original Chicken Sandwich<p>
+  
+  <div id="img-div">
+  <img id="image" class="responsive-img" src="http://fayette-news.net/wp-content/uploads/2014/09/his26_truettcathy-1160x798.jpg" alt="">
+  <figcaption id="img-caption">Truett Cathy stands outside his second restaurant, Dwarf House, in Hapeville, Georgia.</figcaption>
+  </div>
+  
+  <div>
+    <h2>Here's a timeline of Truett Cathy's life</h2>
+    <ul id="tribute-info">
+      <li><b>1921:</b> Samuel Truett Cathy is born in Eatonton on March 14.</li>
+      <li><b>1929:</b> Cathy sells soft drinks in his front yard in Atlanta, where the family now lives.</li>
+      <li><b>1932:</b> Cathy gets an Atlanta Journal paper route, which he carries faithfully for seven years</li>
+      <li><b>1939:</b> Cathy is drafted by the U.S. Army and serves until he is honorably discharged in 1945.</li>
+      <li><b>1946:</b> Cathy and his brother Ben pool their resources and, on May 23, open a 24-hour diner called the Dwarf Grill in the Atlanta suburb of Hapeville.</li>
+      <li><b>1948:</b> Cathy marries Jeannette McNeil, whom he first met at age 8 at while attending West End Baptist Church.</li>
+      <li><b>1949:</b> Ben Cathy and another brother are killed in a plane crash, leaving Truett sole proprietor of what's now known as the Dwarf House.</li>
+      <li><b>1951:</b> Cathy opens a second Dwarf House in Forest Park, where he devises the formula for what will become the Chick-fil-A sandwich.</li>
+      <li><b>1963:</b> Cathy trademarks Chick-fil-A.</li>
+      <li><b>1967:</b> Cathy opens a separate location in Greenbriar Mall to sell his chicken sandwiches, and Chick-fil-A restaurants are born.</li>
+      <li><b>1973:</b> Cathy introduces his college scholarship program for employees. By 2000, over 16,000 employees had received a scholarship.</li>
+      <li><b>1982:</b> A major mall developer tries to get Cathy to change his closed Sundays policy by offering a $5,000 donation to a church of Cathy's choice for every mall restaurant that would open on Sundays. Cathy turns him down.</li>
+      <li><b>1984:</b> Cathy launches the WinShape Centre Foundation (for "shaping winners"), which sponsors scholarships, camps and foster care programs.</li>
+      <li><b>1986:</b> The first free-standing Chick-fil-A opens.</li>
+      <li><b>1989:</b> Cathy writes his first book, "It's Easier to Succeed than to Fail."</li>
+      <li><b>1993:</b> First drive-through-only store opens.</li>
+      <li><b>1996:</b> Chick-fil-A becomes the Peach Bowl's first-ever title sponsor.</li>
+      <li><b>2001:</b> Chick-fil-A opens its 1,000th store.</li>
+      <li><b>2006:</b> Andrew Cathy becomes the first grandchild to enter the family business, operating a restaurant in St. Petersburg, Fla.</li>
+      <li><b>2012:</b> Chick-fil-A surges pass KFC in sales in the United States to become the nation's No. 1 chicken chain.</li>
+      <li><b>2013:</b> Dan Cathy promoted to chief executive officer and chairman. Truett Cathy becomes chairman emeritus.</li>
+      <li><b>Sept. 8, 2014:</b> Truett Cathy dies early in the morning.</li>
+    </ul>
+    
+    <p id="quote"><em>It's a silent witness to the Lord when people go into shopping malls, and everyone is bustling, and you see that Chick-fil-A is closed.</em> - <b>S. Truett Cathy</b></p>
+    
+  </div>
+  
+  <p id="footer">For more information about S. Truett Cathy and how he founded Chick-fil-A Inc. visit <a id="tribute-link" target="_blank" href="https://www.chick-fil-a.com/about/history">their official page</a></p>
+  </div>
+</html>
